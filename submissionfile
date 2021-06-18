@@ -1,0 +1,18 @@
+1. Description
+- 목적: 데이터베이스 설계 과목 5팀 프로젝트
+- 요약: 분리수거 방법을 소개하는 서비스. 회원가입 기능으로 사용자의 편의와 퀴즈 기능으로 서비스에 대한 흥미를 더하고자 한다.
+
+2. Role
+- 20190998: 백엔드-로그인 및 회원가입 기능과 조회기능의 php구현
+
+3. Environment
+- MySQL의 쿼리문으로 데이터베이스 작업
+- Xampp의 Apache서버 실행
+- netBeans에서 phpwebpage와 php확장자를 이용하여 파일 작성하고 실행
+
+4. Prerequisite
+- Xampp, MySQL, php파일을 실행할 수 있는 플랫폼(Apache NetBeans 등)
+
+5. Introduce File
+- 로그인 관련: loginAciton.php(로그인 버튼을 누른 이후 데이터베이스 연동 구현) loginSystem.php(로그인과 회원가입 UI) register.php(회원가입 버튼을 누른 후 프로시저를 통해 데이터베이스에 접근)
+- 조회 관련: search.php(조회 화면 UI) search-result.php(검색버튼을 눌렀을 때의 동작)

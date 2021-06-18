@@ -12,21 +12,20 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>PHP Quizzer!</title>
+    <title>Quiz</title>
   </head>
   <body>
     <div id="container">
       <header>
         <div class="container">
-          <h1>PHP Quizzer</h1>
+          <h1>분리수거 퀴즈</h1>
 	</div>
       </header>
 
 
       <main>
       <div class="container">
-        <h2>Test your PHP Knowledge</h2>
-	<p>This is a multiple choice quize to test your knowledge about something</p>
+        <h2>퀴즈를 풀어 포인트를 얻어봅시다!</h2>
 	<ul>
 		<li><strong>Number of Questions: </strong><?php echo $total; ?></ul>
 		<li><strong>Type: </strong>Multiple Choice</ul>
@@ -40,7 +39,7 @@
 
     <footer>
       <div class="container">
-      	   Copyright &copy; 2015, PHP Quizzer
+      	   Copyright &copy; trashnever
       </div>
     </footer>
   </body>

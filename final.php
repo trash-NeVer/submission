@@ -2,8 +2,8 @@
 <?php session_start(); ?>
 <?php
 	//Create Select Query
-	$query="select * from shouts order by time desc limit 100";
-	$shouts = mysqli_query($con,$query);
+	//$query="select * from shouts order by time desc limit 100";
+	//$shouts = mysqli_query($con,$query);
 
  ?>
 <!DOCTYPE html>
@@ -35,7 +35,7 @@
 
     <footer>
       <div class="container">
-      	   Copyright neverdb
+      	   Copyright 윤지
       </div>
     </footer>
   </body>

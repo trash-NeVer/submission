@@ -28,14 +28,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>PHP Quizzer!</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
   <body>
     <div id="container">
       <header>
         <div class="container">
-          <h1>PHP Quizzer</h1>
+          <h1>분리수거 퀴즈</h1>
 	</div>
       </header>
 
@@ -64,7 +64,7 @@
 
     <footer>
       <div class="container">
-      	   Copyright &copy; 2015, PHP Quizzer
+      	   Copyright &copy; trashnever
       </div>
     </footer>
   </body>

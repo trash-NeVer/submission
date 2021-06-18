@@ -1,0 +1,18 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`%` PROCEDURE `p_register`(
+	u_id VARCHAR(13), u_password VARCHAR(15),
+    u_addpoint INT, u_point INT,
+    u_office_id VARCHAR(13),
+    office_name VARCHAR(15), office_gift VARCHAR(10)
+)
+BEGIN
+ START TRANSACTION;
+ INSERT INTO userTBL(userID, userPassword, addedPoint, userPoint)
+ VALUES (u_id, u_password, u_addpoint, u_point);
+ INSERT INTO userGiftTBL(userID, officeName, gift)
+ VALUES (u_office_id, office_name, office_gift);
+ COMMIT;
+END$$
+DELIMITER ;
+
+//mysql에서 call하는 방법: CALL `team5DB`.`p_register`(<{u_id VARCHAR(13)}>, <{u_password VARCHAR(15)}>, <{u_addpoint INT}>, <{u_point INT}>, <{u_office_id VARCHAR(13)}>, <{office_name VARCHAR(15)}>, <{office_gift VARCHAR(10)}>);
